@@ -33,8 +33,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
-	// eureka, kafka
-	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+	// kafka
 	implementation 'org.springframework.kafka:spring-kafka'
 
 	// 각 서비스 간 동기방식의 통신을 지원하는 lib, 재고 파악

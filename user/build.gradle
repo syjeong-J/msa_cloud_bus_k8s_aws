@@ -37,8 +37,6 @@ dependencies {
 	
 	testRuntimeOnly 	'org.junit.platform:junit-platform-launcher'
 
-	// eureka client lib
-	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 
 	// jwt token lib
 	implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
