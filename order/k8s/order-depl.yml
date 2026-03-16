@@ -56,10 +56,10 @@ spec:
                 key: DB_PASSWORD
 
           # 컨테이너 상태 확인, browser를 통해서가 아닌 pod에 직접 접근하는 방법
-          readinessProbe:
-            httpGet:
-              path: /actuator/health
-              port: 8080
+          # readinessProbe:
+          #   httpGet:
+          #     path: /actuator/health
+          #     port: 8080
 
 
 ---
